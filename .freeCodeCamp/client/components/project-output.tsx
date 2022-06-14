@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Loader from "../components/loader";
+import Loader from "./loader";
 import { TestType } from "../types";
 import ProjectTests from "./project-tests";
 

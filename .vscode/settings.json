@@ -1,7 +1,7 @@
 {
   "search.exclude": {
     "dist": true // set this to false to include "dist" folder in search results
-  }
+  },
   // Turn off tsc task auto detection since we have the necessary tasks as npm scripts
   // "typescript.tsc.autoDetect": "off",
   // "breadcrumbs.enabled": false,
@@ -31,25 +31,29 @@
   // "explorer.openEditors.visible": 0,
   // "extensions.autoCheckUpdates": false,
   // "extensions.ignoreRecommendations": true,
-  // "files.exclude": {
-  // "**/.git": true,
-  // "**/.svn": true,
-  // "**/.hg": true,
-  // "**/CVS": true,
-  // "**/.DS_Store": true
-  // ".freecodecamp": true,
-  // ".vscode": true
-  // ".gitignore": true,
-  // ".freeCodeCamp": true,
-  // ".env": true,
-  // ".gitpod.yml": true,
-  // "Dockerfile": true,
-  // "package-lock.json": true,
-  // "package.json": true,
-  // "README.md": true,
-  // ".devcontainer": true,
-  // "curriculum": true
-  // },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "node_modules": true,
+    ".freecodecamp": true,
+    ".vscode": true,
+    ".gitignore": true,
+    ".freeCodeCamp": true,
+    ".env": true,
+    ".gitpod.yml": true,
+    "Dockerfile": true,
+    "package-lock.json": true,
+    "package.json": true,
+    "README.md": true,
+    ".devcontainer": true,
+    "curriculum": true,
+    "renovate.json": true,
+    ".logs": true,
+    ".tests": true
+  }
   // "html.autoClosingTags": false,
   // "npm.fetchOnlinePackageInfo": false,
   // "task.slowProviderWarning": false,
